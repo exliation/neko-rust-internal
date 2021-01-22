@@ -7,6 +7,8 @@
 
 #include "rust/rust.hpp"
 
+#include "projectile.hpp"
+
 #include "memory/memory.hpp"
 #include "memory/lazy_importer.hpp"
 #include "memory/il2cpp.hpp"
@@ -44,7 +46,7 @@ bool DllMain(uintptr_t hmodule)
 		gui::init_gui();
 		hooks::init_hooks();
 		init_bp();
-		//init_projectile();
+		init_projectile();
 		has_initialized = true;
 	}
 	il2cpp::hook(&gui::OnGUI, _("OnGUI"), _("DDraw"), _("UnityEngine"), 0);

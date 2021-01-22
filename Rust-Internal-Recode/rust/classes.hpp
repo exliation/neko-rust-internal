@@ -2,7 +2,6 @@
 
 #include "unity.hpp"
 #include "../utils/xor_float.hpp"
-#define cracked_rust
 
 uintptr_t _displayName = il2cpp::value(_("BasePlayer"), _("_displayName"));
 uintptr_t movement = il2cpp::value(_("BasePlayer"), _("movement"));
