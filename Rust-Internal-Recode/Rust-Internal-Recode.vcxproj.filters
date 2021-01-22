@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="assets">
+      <UniqueIdentifier>{f62c0e42-6cbd-44a9-b461-3e9661627894}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gui">
+      <UniqueIdentifier>{e8b0e535-5d6b-417a-b924-f167259b4417}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="memory">
+      <UniqueIdentifier>{23de1357-6616-4cd7-a8a4-0bfcc928fcf5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="rust">
+      <UniqueIdentifier>{77dbc598-e99c-453f-a741-542d31478b22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="rust\features">
+      <UniqueIdentifier>{57934f36-8bac-4225-9b7f-08128dd70049}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utils">
+      <UniqueIdentifier>{f445962f-3823-44e3-a251-1780323b069b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utils\pattern">
+      <UniqueIdentifier>{a2ef4bae-6621-4684-9dd7-6d1cab55ba82}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp" />
+    <ClCompile Include="utils\pattern\pattern.cpp">
+      <Filter>utils\pattern</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="assets\assets.hpp">
+      <Filter>assets</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\OnGUI.hpp">
+      <Filter>gui</Filter>
+    </ClInclude>
+    <ClInclude Include="hooks.hpp" />
+    <ClInclude Include="memory\il2cpp.hpp">
+      <Filter>memory</Filter>
+    </ClInclude>
+    <ClInclude Include="memory\lazy_importer.hpp">
+      <Filter>memory</Filter>
+    </ClInclude>
+    <ClInclude Include="memory\memory.hpp">
+      <Filter>memory</Filter>
+    </ClInclude>
+    <ClInclude Include="projectile.hpp">
+      <Filter>rust</Filter>
+    </ClInclude>
+    <ClInclude Include="rust\classes.hpp">
+      <Filter>rust</Filter>
+    </ClInclude>
+    <ClInclude Include="rust\features\player_esp.hpp">
+      <Filter>rust\features</Filter>
+    </ClInclude>
+    <ClInclude Include="rust\rust.hpp">
+      <Filter>rust</Filter>
+    </ClInclude>
+    <ClInclude Include="rust\unity.hpp">
+      <Filter>rust</Filter>
+    </ClInclude>
+    <ClInclude Include="settings.hpp" />
+    <ClInclude Include="utils\no_crt.hpp">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\pattern\pattern.hpp">
+      <Filter>utils\pattern</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\vector.hpp">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\xorstr.hpp">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\xor_float.hpp">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="offsets.h" />
+    <ClInclude Include="utils\string_format.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\stb_sprintf.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
