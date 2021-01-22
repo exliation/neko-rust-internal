@@ -50,7 +50,7 @@ bool DllMain(uintptr_t hmodule)
 		has_initialized = true;
 	}
 	il2cpp::hook(&gui::OnGUI, _("OnGUI"), _("DDraw"), _("UnityEngine"), 0);
-	//il2cpp::hook(&OnProjectileUpdate, _("Update"), _("Projectile"), _(""), 0);
+	il2cpp::hook(&OnProjectileUpdate, _("Update"), _("Projectile"), _(""), 0);
 	il2cpp::hook(&hooks::hk_OnNetworkMessage, _("OnNetworkMessage"), _("Client"), _(""), 1);
 
 	mem::hook_virtual_function(_("BasePlayer"), _("ClientInput"), &hooks::hk_baseplayer_ClientInput);
