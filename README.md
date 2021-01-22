@@ -1,4 +1,7 @@
 # neko-rust-internal
+
+Last Updated: 10/11/2020
+
 Key Features:
   - Silent Aim/Farm/Melee
   - Hitbox Override (Always Headshot etc.)
