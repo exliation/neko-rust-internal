@@ -4,6 +4,7 @@ Last Updated: 10/11/2020
 
 Key Features:
   - Silent Aim/Farm/Melee
+  - Magic Bullet (projectile.hpp)
   - Hitbox Override (Always Headshot etc.)
   - Always Shoot
   - Player Chams (custom colored)
